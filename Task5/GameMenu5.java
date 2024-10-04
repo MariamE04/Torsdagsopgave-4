@@ -9,8 +9,8 @@ public class GameMenu5{
 	}
 
 	public void displayMenu() {
-        for (int i = 0; i < actions.size(); i++) {
-            System.out.println((i + 1) + ": " + actions.get(i));
+        for (String action : actions) {
+            System.out.println(action);
         }
     }
         public String getAction(){
